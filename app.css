@@ -1,0 +1,149 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.container{
+    border: 5px solid rgba(87,111,230,1);
+    background-color:  rgb(134, 207, 241);
+    border-radius: 5px;
+    width: 50%;
+    margin: 20px 0;
+    padding: 20px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 420px;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+.header{
+    line-height: 25px;
+    color: rgba(87,111,230,1);;
+}
+
+.cat_pic_div{
+    border: 3px solid rgba(152,68,183,1);
+    border-radius: 5px;
+}
+
+h2{
+    color: rgba(87,111,230,1);;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.cat_div_id{
+    color: rgba(152,68,183,1);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.range_input_div{
+    margin-bottom: 30px ;
+    margin-top: 15px;
+}
+
+.range_input{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 200px;
+  margin-top: 10px;
+}
+
+
+.range_input::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  background: rgba(59,173,227,1);
+  background: -moz-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(59,173,227,1)), color-stop(25%, rgba(87,111,230,1)), color-stop(51%, rgba(152,68,183,1)), color-stop(100%, rgba(255,53,127,1)));
+  background: -webkit-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+  background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+  height: 2px;
+}
+
+.range_input:focus {
+  outline: none;
+}
+
+.range_input::-moz-range-track {
+  -moz-appearance: none;
+  background: rgba(59,173,227,1);
+  background: -moz-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(59,173,227,1)), color-stop(25%, rgba(87,111,230,1)), color-stop(51%, rgba(152,68,183,1)), color-stop(100%, rgba(255,53,127,1)));
+  background: -webkit-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+  background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+  height: 2px;
+}
+
+.range_input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 2px solid;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  max-width: 80px;
+  position: relative;
+  bottom: 11px;
+  background-color: #f1f0f5;
+  cursor: -webkit-grab;
+
+  -webkit-transition: border 1000ms ease;
+  transition: border 1000ms ease;
+}
+
+.range_input::-moz-range-thumb {
+  -moz-appearance: none;
+  border: 2px solid;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  max-width: 80px;
+  position: relative;
+  bottom: 11px;
+  background-color: #ffffff;
+  cursor: -moz-grab;
+  -moz-transition: border 1000ms ease;
+  transition: border 1000ms ease;
+}
+
+.range_input::-webkit-slider-thumb:active {
+  cursor: -webkit-grabbing;
+}
+
+.range_input::-moz-range-thumb:active {
+  cursor: -moz-grabbing;
+}
+
+.cat_pic_button{
+    background: linear-gradient(to right, rgba(152,68,183,1) , rgba(255,53,127,1) );
+    padding: 0.875rem 2.1875rem;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 25px;
+    transition: opacity 300ms ease-in-out;
+}
+
+.cat_pic_button:hover{
+    opacity: 0.75;
+}
+
+
+
+
+
+
+
+
